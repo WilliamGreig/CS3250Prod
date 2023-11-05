@@ -217,7 +217,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Heroku setting
 # Serving the statics through Whitenoise in Heroku
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
